@@ -34,8 +34,6 @@ export default function LoginScreen() {
 
       <SocialButton label="Continuar com um número de telefone" icon={require('../assets/phone-icon.png')} />
       <SocialButton label="Continuar com o Google" icon={require('../assets/google-icon.png')} />
-      <SocialButton label="Continuar com o Facebook" icon={require('../assets/facebook-icon.png')} />
-      <SocialButton label="Continuar com a Apple" icon={require('../assets/apple-icon.png')} />
 
     </ScrollView>
   );
