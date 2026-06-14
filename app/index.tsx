@@ -10,7 +10,7 @@ export default function LoginScreen() {
     <ScrollView contentContainerStyle={styles.container}>
 
       <Image
-        source={require('../assets/spotify-logo.png')}
+        source={require('../assets/images/spotify-logo.png')}
         style={styles.logo}
       />
 
@@ -32,8 +32,8 @@ export default function LoginScreen() {
 
       <Text style={styles.divider}>ou</Text>
 
-      <SocialButton label="Continuar com um número de telefone" icon={require('../assets/phone-icon.png')} />
-      <SocialButton label="Continuar com o Google" icon={require('../assets/google-icon.png')} />
+      <SocialButton label="Continuar com um número de telefone" icon={require('../assets/images/phone-icon.png')} />
+      <SocialButton label="Continuar com o Google" icon={require('../assets/images/google-icon.png')} />
 
     </ScrollView>
   );
