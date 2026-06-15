@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Image, ScrollView, Text, TextInput, TouchableOpacity } from 'react-native';
+import { View } from 'react-native-reanimated/lib/typescript/Animated';
 import SocialButton from '../components/SocialButton';
 import { styles } from '../styles';
 
@@ -8,6 +9,7 @@ export default function LoginScreen() {
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
+      <View style={styles.content}>
 
       <Image
         source={require('../assets/images/spotify-logo.png')}
@@ -34,7 +36,8 @@ export default function LoginScreen() {
 
       <SocialButton label="Continuar com um número de telefone" icon={require('../assets/images/phone-icon.png')} />
       <SocialButton label="Continuar com o Google" icon={require('../assets/images/google-icon.png')} />
-
+    
+      </View>
     </ScrollView>
   );
 }
