@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import { Image, ScrollView, Text, TextInput, TouchableOpacity } from 'react-native';
-import { View } from 'react-native-reanimated/lib/typescript/Animated';
+import { Image, ScrollView, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import SocialButton from '../components/SocialButton';
 import { styles } from '../styles';
 
