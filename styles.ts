@@ -9,6 +9,12 @@ export const styles = StyleSheet.create({
     paddingTop: 60,
     paddingBottom: 40,
   },
+
+  content: {
+  width: '100%',
+  alignItems: 'center',
+},
+
   logo: {
     width: 50,
     height: 50,
